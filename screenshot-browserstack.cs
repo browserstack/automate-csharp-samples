@@ -10,13 +10,12 @@ namespace Automate
     public ScreenShotRemoteWebDriver(Uri uri, DesiredCapabilities dc) : base(uri, dc)
     {
     }
+
+    // This method is used to take screen shots
     public Screenshot GetScreenshot()
     {
-      // Get the screenshot as base64.
       Response screenshotResponse = this.Execute(DriverCommand.Screenshot, null);
       string base64 = screenshotResponse.Value.ToString();
-
-      // ... and convert it.
       return new Screenshot(base64);
     }
   }
@@ -34,8 +33,8 @@ namespace Automate
       caps.SetCapability("os_version", "7");
       caps.SetCapability("build", "screenshot test");
       caps.SetCapability("browserstack.debug", "true");
-      caps.SetCapability("browserstack.user", );
-      caps.SetCapability("browserstack.key", );
+      capability.SetCapability("browserstack.user", "USERNAME");
+      capability.SetCapability("browserstack.key", "KEY");
       driver = new ScreenShotRemoteWebDriver(new Uri("http://hub.browserstack.com/wd/hub/"), caps);
     }
 
