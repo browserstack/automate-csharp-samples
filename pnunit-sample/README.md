@@ -1,5 +1,5 @@
 # pnunit-sample
-Sample code to run C# webdriver tests in parallel on multiple browsers on [BrowserStack Automate](www.browserstack.com/automate) using PNunit framework.
+Sample code to run C# webdriver tests in parallel on multiple browsers on [BrowserStack Automate](http://www.browserstack.com/automate) using PNunit framework.
 
 ### Downloading PNunit
 - Download [pnunit.zip](https://s3.amazonaws.com/browserStack/selenium/PNUnit.zip) and extract its contents into a folder say, "pnunit". This folder will contain .dll files for PNunit , Nunit, PNunit agent and launcher
@@ -19,4 +19,4 @@ Sample code to run C# webdriver tests in parallel on multiple browsers on [Brows
 - Go to pnunit directory <br/>`cd pnunit` 
 - Start the agent <br/> You can specify the port on which agent runs in `agent.conf` <br/> Run `start agent agent.conf` 
 - Launcher wil launch the tests.<br/>Run `launcher test.conf`
-- View your tests running on [BrowserStack Automate](www.browserstack.com/automate)
+- View your tests running on [BrowserStack Automate](http://www.browserstack.com/automate)
