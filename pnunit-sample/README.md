@@ -20,7 +20,7 @@ This repo should help you run PNUnit tests on BrowserStack
 6. Build the solution (Ctrl+Shift+B)
 7. This will display a path of the project DLL file that is created. Copy the "projectname.dll" file to NUnit/bin folder.
 8. Also add the 4 Selenium-donet DLL's (net35) to the NUnit/bin folder. 
-9. Create a "bs_test.conf" file as available in this repo. This file contains the BrowserStack capabilities to be set for the test and the class details to be executed.
+9. Create a "test.conf" file as available in this repo. This file contains the BrowserStack capabilities to be set for the test and the class details to be executed.
 10. Use the following commands to run the test:
   1. start pnunit-agent.exe agent.conf
   2. pnunit-launcher.exe bs_test.conf
