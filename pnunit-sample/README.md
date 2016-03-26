@@ -23,6 +23,6 @@ This repo should help you run PNUnit tests on BrowserStack
 9. Create a "test.conf" file as available in this repo. This file contains the BrowserStack capabilities to be set for the test and the class details to be executed.
 10. Use the following commands to run the test:
   1. start pnunit-agent.exe agent.conf
-  2. pnunit-launcher.exe bs_test.conf
+  2. pnunit-launcher.exe test.conf
 
 11. This will initiate the tests on BrowserStack. Check running tests on the BrowserStack's [Automate Dashboard] (https://www.browserstack.com/automate)
