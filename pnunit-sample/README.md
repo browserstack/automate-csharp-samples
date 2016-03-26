@@ -16,7 +16,7 @@ This repo should help you run PNUnit tests on BrowserStack
     * nunit.framework.dll
     * pnunit.framework.dll
 
-5. Copy the test from the Class1.cs file available in this repo. Please add your username and password to the test file.
+5. Copy the test from the BrowserstackTest.cs file available in this repo. Please add your username and password to the test file.
 6. Build the solution (Ctrl+Shift+B)
 7. This will display a path of the project DLL file that is created. Copy the "projectname.dll" file to NUnit/bin folder.
 8. Also add the 4 Selenium-donet DLL's (net35) to the NUnit/bin folder. 
