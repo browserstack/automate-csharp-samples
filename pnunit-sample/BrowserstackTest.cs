@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using PNUnit.Framework;
 using System;
 using System.Web;
@@ -7,7 +7,7 @@ using System.Net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 
-namespace PNunitSample
+namespace PNUnitSample
 {
     [TestFixture()]
     public class BrowserstackTest
@@ -34,8 +34,8 @@ namespace PNunitSample
             capability.SetCapability("os_version", os_version);
             capability.SetCapability("platform", platform);
             capability.SetCapability("device", device);
-            capability.SetCapability("browserstack.user", "username");
-            capability.SetCapability("browserstack.key", "key");
+            capability.SetCapability("browserstack.user", "<USERNAME>");
+            capability.SetCapability("browserstack.key", "<ACCESS_KEY>");
 
             Console.WriteLine("Capabilities" + capability.ToString());
 
