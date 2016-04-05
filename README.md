@@ -16,7 +16,6 @@ Documentation for writing Automate test scripts in C#
  - In order to write selenium test in visual studio, create a new "Console Application" in visual studio. File→New Project→Visual c#→Console Application.
  - Then the selenium libraries are needed to be imported through "Solution Explorer" pane. Right click on References, browse through C:\selenium-dotnet\selenium-dotnet-2.33.0\net40 and import the libraries.
 
+For C# frameworks integration with BrowserStack, refer to their individual repositories - 
 
-## Running the tests
-Update the sample tests for various libraries and frameworks which
-exists in this project with the correct USERNAME and PASSWORD.
+- [Pnunit](https://github.com/browserstack/pnunit-browserstack)
